@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        
+        <title>Whitmore Industries</title>
+    </head>
+    <body>
+        <header>
+            <div class = "navBar">
+                <div class = "buttons" style="width: 100%;">
+                    <a href="index.html">
+                        <button class = "home" style="background-color:aqua; width: 22%;">
+                            Home
+                        </button>
+                    </a>
+                    <a href = "progress.html">
+                        <button class = "progress" style="background-color:darkcyan; width: 22%; ">
+                            Progress
+                        </button>
+                    </a>
+                    <a href="projects.html">
+                        <button class = "nextSteps" style=" background-color:cadetblue; width: 22%;">
+                            Next Steps
+                        </button>
+                    </a>
+                    <a href="about.html">
+                        <button class = "about" style="background-color:darkslategrey; width: 22%;">
+                            About Me
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="middle">
+                <h3> 15/08/2022 </h3>
+                <p>The first iteration of the D.I.N.A program was first published to my github on the 15th of September in 2022 which can be accessed via the button below.</p>
+                <p>At this time I did not get D.I.N.A to run due to technical difficulties (ironic coming from an I.T student I know), However still determined to complete this project, I was not concerned about the challanges that lay ahead.</p>
+                <p>I began watching Harvard lectures on artificial intelligence and TedTalks to get a better understanding of how it works and what is required to complete such a project. This only intrigued me more and after understanding how to convert audio clips into strings of sentences, I felt prepared to make a second iteration of the D.I.N.A program.</p>
+                <h3>22/01/2023</h3>
+                <p>The second iteration of the D.I.N.A program was published to my github repository with far greater promise of success. With the correct packages installed to run the ai, I took a different aproach to executing commands</p>
+                <p>At this point I had also began documenting each time I tested the AI, what went wrong and what my next step was to rectify this problem.</p>
+                <p>"One problem I faced while programming D.I.N.A, was downloading the package PyAudio. To resolve this I used the command 'python -version' to find the version of python running on my machine and manually download the corresponding PyAudio to the D.I.N.A file. The last step was to enter 'pip install .\{PyAudio file name}' to finish the installation" - 13/01/2023 10:34pm </p>
+                <p>"I finally managed to get D.I.N.A to run today with the new code and I have published it to my github so I can later clone it to a raspberry pi and see if it will run there too. So far D.I.N.A will not except voice input, so this is something I will have to fix later." - 22/01/2023 3:12pm</p>
+                <h3>14/02/2023</h3>
+                <p>"Over the weekend I sanded the paint off of the model house and applied new paint as well as re-enforced the model so that it is more permanent and durable. I have also began putting in lights and the servo for the door and testing my circuits running a basic for loop. I am also considering adding a second servo to act as an automatic curtain. I would also like to consider making my own jumper wires for these circuits to get exact length required. 
+                    This will cut down on the amount of excess wire, making the model house look more tidy." - 14/02/2023 7:36pm</p>
+                <h3>13/03/2023</h3>
+                <p>"I got the voice activation to work on my laptop, the biggest problem I faced was an "if" statemet that was preventing the rest of the program to run. The "if" statement was checking if the wake word "dina" was in the command. When the command is recognised and converted and parsed into a string, the wake word was excluded in that sentence when converted into text, removing this if statement resolved the issue.
+                    Along with getting the voice assistant working, D.I.N.A can also send json data via MQTT. This will be extremely useful as it means any devices connected to D.I.N.A, can control the house. This makes this method very useful for expanding in the future. Some issues I have faced is that the wake word does not work correctly, meaning you can say any name and it will activate the system. A solution for this is that I dive in to the speech recogniser class and see if I can make it mandatory to have "dina" in the sentence before passing it to the google recogniser. Alternatively, I may be able to train the wake word using porcupine.
+                    The final steps to completing D.I.N.A 2.0, is to allow the raspberry pi and arduino to communicate. This will envolve a serial connection between the devices, allowing the house to operate." 13/03/2023 10:22pm</p>
+            
+            
+            </section>
+        </main>
+        <footer>
+            <div class="socials">
+                <div class="buttons" style="width: 100%;">
+
+                    <a href="https://www.instagram.com/shane_whitless/?next=%2F">
+                        <button class="insta" style="width: 30%;">
+                            Instagram
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shane-whitmore-710a46251/">
+                        <button class="linked" style="width: 30%;">
+                            LinkedIn
+                        </button>
+                    </a>  
+                    <a href="https://github.com/ShaneWhitmore"> 
+                        <button class="git" style="width: 30%;">
+                            github
+                        </button>
+                    </a> 
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,160 @@
+
+
+@media screen and (max-width:600px){
+
+    body{
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+    .buttons{
+        width: fit-content;
+        padding-left: 5%;
+        padding-right:5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+
+    img{
+        width:220px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .shane{
+        width: 200px;
+        height: 100px;
+    }
+
+    .recognition{
+        visibility: hidden;
+    }
+
+
+
+}
+
+@media screen and (max-width:1000px){
+
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .navBar, .socials{
+        margin-left: auto;
+        margin-right: auto;
+        padding: inherit;
+    }
+
+    header{
+        align-items: center;
+        align-self: auto;
+    }
+}
+
+body{
+    background-color:blue;
+    background-image: url("https://freerangestock.com/sample/145397/artificial-intelligence-background--abstract-ai-background-with.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header , footer{
+    padding: inherit;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin:auto;
+    border-color: blue;
+}
+
+
+.navBar , .socials{
+    background-color:darkgray;
+    padding: inherit;
+    border-radius: 26px;
+    opacity: 80%;
+    margin: auto;
+    border-color: red;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    margin:auto;
+}
+
+.house, .paintedHouse{
+    width:400px;
+    height: 300px;
+}
+
+
+.middle{
+    align-content: center;
+    align-self: center;
+    margin: auto;
+    border: 0px;
+    padding: 10pt;
+    background-color: white;
+    opacity: 0.75;
+    border-radius: 26px;
+}
+
+p , h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: medium;
+}
+
+
+button{
+    padding: 2%;
+    border-radius: 5px;
+    border-width: 2px;
+    font:bold;
+    color: black;
+}
+
+/*TAKEN FROM W3SCHOOLS.COM  https://www.w3schools.com/howto/howto_css_cards.asp*/
+button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.buttons{
+    margin: auto;
+    max-width: 1500px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 300px;
+    max-height: 500px;
+    margin: auto;
+    background-color: rgba(200,200,200,0.2);
+    border-radius: 15px;
+    color: whitesmoke;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  
+  img {
+    border-radius: 15px;
+  }
